@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_welcome"
+    android:id="@+id/welcom_layout" >
+    
+    
+    <com.sunny.csdnblog.TitanicTextView
+    android:id="@+id/welcomImage"
+    android:text="@string/welcom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:textSize="@dimen/welcomtext"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="200dp"
+    android:gravity="center"/>
+ <!--   <TextView
+        android:id="@+id/welcomImage"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/welcom"
+        android:textSize="@dimen/welcomtext"
+        android:textColor="@android:color/white"
+        />  Welcom to Sunnys blog -->
+        
+    <TextView
+        android:id="@+id/madeby"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/made_by"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"  
+        android:layout_marginTop="150dp"    
+        android:textSize="@dimen/welcom_madeby"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>
